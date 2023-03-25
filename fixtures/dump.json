@@ -1,0 +1,128 @@
+[
+{
+  "model": "webapp.product",
+  "pk": 1,
+  "fields": {
+    "name": "Кофемашина автоматическая DeLonghi Eletta Explore ECAM450.76.T",
+    "category": "FOR_KITCHEN",
+    "description": "Неограниченные возможности и фантазия: легко готовьте горячие или освежающие кофейные напитки. Запатентованная система  Latte Crema и De'Longhi Latte Crema Cool позволяет легко готовить вкусные кофейно-молочные напитки в домашних условиях. Eletta Explore открывает для вас бесконечное разнообразие кофе и приносит опыт истинного бариста. Благодаря 4м пользовательским профилям, вы с легкостью сможете запрограммировать и наслаждаться широким выбором рецептов горячего и холодного кофе. Функция Tubeless обеспечивает всегда свежий кофе у вас в чашке, сразу после помола, кофе напрямую попадает в заварочный блок. Встроенная кофемолка с металлическими жерновами имеет 13 степеней помола – выбирайте в зависимости от сорта зерен и ваших предпочтений. За управление отвечают цветной 3,5-дюймовый TFT-дисплей и сенсорные кнопки. Наглядные изображения помогут быстро разобраться в настройках. Есть возможность выбрать объем порции, вкус (крепость), температуру, плотность пены. Пользователь может сохранить наиболее часто используемые параметры в отдельный профиль или настраивать напиток через мобильное приложение Coffee Link.  Вы также можете использовать приложение Coffe Link для персональных рецептов и открыть для себя более 100 творческих рецептов и вариантов кофейных напитков.",
+    "image": "images/2311080.jpg",
+    "created_at": "2023-03-25T11:55:06.097Z",
+    "updated_at": "2023-03-25T11:55:06.100Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 2,
+  "fields": {
+    "name": "Ноутбук Apple MacBook Air 2022 M2, RAM 8 ГБ, SSD 512 ГБ",
+    "category": "LAPTOP",
+    "description": "MacBook Air — знаковый ноутбук. Прежде всего из-за дизайна. Первый «эйр» произвел фурор в 2008 году. Среди тяжелых «кирпичей», лишенных всякого стиля, этот ноутбук стал настоящим прорывом. Тогда Apple показала всему миру, что ноутбук может быть не только гаджетом, но и стильным аксессуаром.\\r\\n\\r\\nСпустя годы внешний вид MacBook Air особо не менялся. Да, в 2018 году компания осовременила ноутбук: появился Retina-дисплей, Touch ID, да и в целом устройство получило актуальный дизайн. Неизменным все это время оставалось одно — клиновидная форма, по которой многие и опознавали «эйр».",
+    "image": "images/Ohne-Titel-2-1024x576.jpeg",
+    "created_at": "2023-03-25T11:55:06.097Z",
+    "updated_at": "2023-03-25T11:55:06.100Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 3,
+  "fields": {
+    "name": "APPLE iPhone 14 Pro Max 256GB (Deep Purple)",
+    "category": "SMARTPHONES",
+    "description": "Линейка: iPhone 14 Pro Max\r\nОбъем встроенной памяти: 256 ГБ\r\nГод выпуска модели:2022\r\nЦвет корпуса: фиолетовый",
+    "image": "images/phone.jpg",
+    "created_at": "2023-03-25T11:55:06.097Z",
+    "updated_at": "2023-03-25T11:55:06.100Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 4,
+  "fields": {
+    "name": "tttttt",
+    "category": "LAPTOP",
+    "description": "ddddddddddddddddddddddddddddddddddddddd",
+    "image": "images/no-image.jpg",
+    "created_at": "2023-03-25T11:55:06.097Z",
+    "updated_at": "2023-03-25T11:55:06.100Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 5,
+  "fields": {
+    "name": "aaaaaaaaaaaaaaaaaaaaaaaa",
+    "category": "SMARTPHONES",
+    "description": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": "images/no-image.jpg",
+    "created_at": "2023-03-25T11:55:06.097Z",
+    "updated_at": "2023-03-25T11:55:06.100Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 6,
+  "fields": {
+    "name": "bbbbbbbbbb",
+    "category": "FOR_KITCHEN",
+    "description": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "image": "images/no-image.jpg",
+    "created_at": "2023-03-25T11:55:06.097Z",
+    "updated_at": "2023-03-25T11:55:06.100Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 7,
+  "fields": {
+    "name": "nnnnnnnnnnn",
+    "category": "LAPTOP",
+    "description": "nnnnnnnnnnnnnnnnnnnnnnnnnn",
+    "image": "images/no-image.jpg",
+    "created_at": "2023-03-25T11:55:06.097Z",
+    "updated_at": "2023-03-25T11:55:06.100Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 8,
+  "fields": {
+    "name": "ooooooooo",
+    "category": "SMARTPHONES",
+    "description": "ooooooooooooooooooo",
+    "image": "images/no-image.jpg",
+    "created_at": "2023-03-25T11:55:06.097Z",
+    "updated_at": "2023-03-25T11:55:06.100Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 9,
+  "fields": {
+    "name": "ddddddddddddddd",
+    "category": "FOR_KITCHEN",
+    "description": "dddddddddddddd",
+    "image": "images/no-image.jpg",
+    "created_at": "2023-03-25T11:55:06.097Z",
+    "updated_at": "2023-03-25T11:55:06.100Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+}
+]
