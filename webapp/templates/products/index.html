@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block title %}Products{% endblock %}
+{% block menu %}{% endblock menu %}
+{% block content %}
+
+    <h1 style="font-size: 40px"> Список товаров </h1>
+    {% for product in products %}
+        <div class="d-flex mt-4 justify-content: center" style="width: 90%; height: 230px; font-size: 14px">
+            <div class="card w-50">
+                <img class="rounded-t-xl" src='{{ product.image.url }}' style="height: 220px; width: 210px; display: block;
+                    margin-left: auto; margin-right: auto">
+            </div>
+            <div class="card w-50 bg-light">
+                <div class="rounded">
+                    <h5 class="card-title mt-1 ml-2 fw-bold"
+                        style="font-size: 18px;">{{ product.name }}</h5>
+                </div>
+                <p style="font-size: 16px;"
+                   class="card-text ml-2 h-25">Категория: {{ product.get_category_display }}</p>
+                <h3 class="card-text ml-2 fw-bold h-25" style="font-size: 21px">Средняя оценка: {{product.reviewed_products.get_average}}</h3>
+                <div class="d-flex justify-content-around">
+                    <div>
+{#                        <a href="{% url 'review_add' product.pk %}"#}
+{#                           class="btn aqua mt-3 mb-2 ml-2">#}
+{#                            Оценить#}
+{#                        </a>#}
+                    </div>
+
+                    <div>
+                        <a class="btn-primary" href="{% url 'product_edit' product.pk %}">Редактировать</a>
+                        <a class="btn-primary" href="{% url 'product_delete' product.pk %}">Удалить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% empty %}
+    <h3>No items in list</h3>
+    {% endfor %}
+    {% if is_paginated %}
+        {% include 'partial/pagination.html' %}
+    {% endif %}
+{% endblock %}

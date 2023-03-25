@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Add review{% endblock %}
+{% block content %}
+    <h1 style="font-size: 40px">Добавить отзыв</h1>
+
+<div class="form">
+  <form action="{% url 'rate' product.pk %}" method="post">
+    {% include 'partial/product_form.html' with button_text='Добавить' %}
+  </form>
+</div>
+{% endblock %}
